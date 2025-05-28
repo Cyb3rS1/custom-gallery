@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Gallery Builder</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <h1 id="gallery_title">Create your own gallery!</h1>
+    
+    <div id="gallery_container"></div>
+
+    <hr>
+
+    <div id="builder_portion">
+
+    
+        <h2>Gallery Builder</h2>
+        <p>Add, edit, and delete images with a click!</p>
+        <br>
+        
+            <label for="title_input">Gallery title:</label>
+
+            <input type="text" id="title_input" name="title_input">
+            <br><br>
+
+        <div id="gallery_builder"></div>
+        
+    <form action="file:///C:/Users/Sierra/OneDrive/Desktop/school/JavaScript%202025/Capstone%20project/index.html" 
+        method="post" enctype="multipart/form-data" id="form">  
+
+        <span id="button_strip">
+
+    <button type="button" id="delete_all" class="formButtons">Remove All</button>
+
+        <input type="file" id="images_input" class="formButtons" accept="image/png, image/jpg" multiple>
+      
+        <button type="submit" id="confirm_changes" class="formButtons">Confirm Changes</button>
+
+    </span>
+    </form>
+    <br><br>
+
+
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+
+</html>
