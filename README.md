@@ -1,1 +1,1 @@
-# cyb3rs1.github.io/custum-gallery
+# cyb3rs1.github.io/custom-gallery
